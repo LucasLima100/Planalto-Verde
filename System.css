@@ -343,6 +343,10 @@ background-color: white;
 
         position: relative;
         top: 30px;
+        left: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: small;
         text-align: center;
         width: 100%;
@@ -374,6 +378,7 @@ background-color: white;
         background: var(--verde-escuro);
         border-radius: 5px;      
         position: relative;
+        right: 2px;
                   
     }
 
@@ -400,7 +405,7 @@ background-color: white;
     padding:2px;
     border-radius:20px;
     box-shadow:0 8px 20px rgba(0,0,0,.08);
-    
+    transform: scale(0.9);
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
@@ -419,17 +424,22 @@ a {
     text-decoration: none;
     font-size: 10px;
     position: relative;
-    right: 20px;
+    right: 5px;
+}
+
+.ps {
+
+    text-align: center;
 }
 
 .sobre:hover{
 
-    transform: scale(1.0);
+    transform: scale(0.9);
 }
 
 .contatos:hover{
 
-    transform: scale(1.0);
+    transform: scale(0.9);
 }
 
 .sobre {
@@ -438,6 +448,7 @@ a {
     padding: 18px;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transform: scale(0.9);
     transition: all 0.3s ease-in-out;
 }
 
